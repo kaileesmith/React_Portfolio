@@ -1,10 +1,18 @@
-.App{
-  background-image: url(./Images/background.jpg);
+.App, .aboutCont{
+  background-image: url(./Components/Images/background.jpg);
   background-size:100%;
   background-attachment: inherit;
   background-repeat: repeat;
+  height: 100vh;
 }
 
 .footerFont{
   color: #ffffff;
+}
+
+footer{
+  bottom: 0;
+  left:0;
+  position:fixed;
+  width: 100%;
 }
