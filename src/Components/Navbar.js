@@ -23,7 +23,12 @@ const Navbar = () => {
                             </button>
                         </li>
                         <li className="nav-item">
-                            {/* <a class="nav-link" href="./contact.html">Contact</a> */}
+                            <button
+                                    onClick={(e) => history.push("/work")}
+                                    className="btn"
+                                    name="work"
+                                >Work
+                                </button>
                         </li>
                         <li className="nav-item">
                             {/* <a className="nav-link" href="./portfolio.html">Portfolio</a> */}
