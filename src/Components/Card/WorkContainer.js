@@ -9,12 +9,12 @@ import quizImg from "../../Utils/codequiz.JPG";
 function ProjectsContainer() {
     return (
         <div className= "workCont">
-            <div className= "container">
-                <div className="row">
                     <div className="jumbotron">
+                        <div className="row">
                         <h4 className="display-4 workTitle">MY WORK</h4>
-                            <main className="col-md-10">
-                            <div className= "container">
+                        </div>
+                            <main className="col-md-12">
+                            <div className= "container projects">
                                 <div className="row">
                                     <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
                                         <div className="carousel-inner">
@@ -63,8 +63,6 @@ function ProjectsContainer() {
                             </main>
                     </div>
                 </div>
-            </div>
-        </div>
     )
 }
 

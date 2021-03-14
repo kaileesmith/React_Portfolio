@@ -4,7 +4,6 @@
 .App, .contactCont, .workCont{
   background-image: url(./Utils/background.jpg);
   background-size:100%;
-  background-attachment: inherit;
   background-repeat: repeat;
   height: 100vh;
 }
@@ -51,6 +50,10 @@ background-color: #869D7A;
   border-radius: 8px;
 }
 
-#carouselControl{
-
+.projects{
+  justify-content: center;
+}
+h5, p{
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
 }

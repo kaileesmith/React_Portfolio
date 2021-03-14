@@ -30,12 +30,12 @@ const Navbar = () => {
                             >Contact
                             </button>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                         <a href="https://www.linkedin.com/in/kaileesmith/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin fa-3x"></i></a>
                         </li>
                         <li className="nav-item">
                         <a href="https://www.github.com/kaileesmith" target="_blank" rel="noreferrer"><i className="fab fa-github-square fa-3x"></i></a> 
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
             </nav>
