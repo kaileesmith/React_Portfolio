@@ -1,16 +1,16 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer' 
-import AboutContainer from '../Components/Card/AboutContainer'
+import ContactContainer from '../Components/Card/ContactContainer'
 
-function About() {
+function Contact() {
     return (
         <div>
             <Navbar/>
-            <AboutContainer/>
+            <ContactContainer/>
             <Footer/>
         </div>
     )
 }
 
-export default About
+export default Contact

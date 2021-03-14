@@ -1,7 +1,7 @@
 import './App.css';
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import Home from './Pages';
-import About from "./Pages/About";
+import Contact from "./Pages/Contact";
 import Work from "./Pages/Work";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <Router>
       <Switch>
         <Route exact path= "/" component={Home}/>
-        <Route path= "/about" component={About}/>
+        <Route path= "/contact" component={Contact}/>
         <Route path= "/work" component={Work}/>
       </Switch>
     </Router>

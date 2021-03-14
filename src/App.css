@@ -3,8 +3,8 @@
 
 
 
-.App, .aboutCont{
-  background-image: url(./Components/Images/background.jpg);
+.App, .contactCont, .workCont{
+  background-image: url(./Utils/background.jpg);
   background-size:100%;
   background-attachment: inherit;
   background-repeat: repeat;
@@ -27,7 +27,7 @@ footer{
   color:#ffffff;
 }
 
-.aboutTitle{
+.contactTitle{
   color:#ffffff;
   font-family: 'Raleway', sans-serif;
 }
