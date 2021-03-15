@@ -10,7 +10,11 @@
 }
 
 .footerFont{
-  color: #ffffff;
+  color: #AD360B;
+}
+.container1{
+  justify-content: center;
+  text-align: center;
 }
 
 footer{
