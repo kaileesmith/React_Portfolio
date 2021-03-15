@@ -71,3 +71,15 @@ h5, p{
   margin-bottom: 0px;
 
 }
+ul{
+  float: right;
+}
+.contactTitle{
+  text-align: center;
+}
+.links{
+  padding-right: 450px;
+}
+.fab, .fas{
+  color: #AD360B;
+}
