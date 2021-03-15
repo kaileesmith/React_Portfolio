@@ -5,7 +5,7 @@ import ContactContainer from '../Components/Card/ContactContainer'
 
 function Contact() {
     return (
-        <div>
+        <div className= "contact">
             <Navbar/>
             <ContactContainer/>
             <Footer/>

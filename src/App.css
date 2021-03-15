@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@1,700&family=Source+Sans+Pro&display=swap');
 
 
-.App, .contactCont, .workCont{
+.App, .contact, .work{
   background-image: url(./Utils/background.jpg);
-  background-size:100%;
-  background-repeat: repeat;
-  height: 100vh;
+  background-size:100%!important;
+  background-repeat:inherit;
+  height: 100vh!important;
+  /* padding-top: 0px !important; */
 }
 
 .footerFont{
@@ -56,4 +57,17 @@ background-color: #869D7A;
 h5, p{
   font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
+  color: #ffffff;
+}
+
+.d-block{
+  width: 700px;
+  height: 500px;
+}
+
+.workTitle{
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
 }

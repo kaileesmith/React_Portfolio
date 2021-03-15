@@ -3,10 +3,9 @@ import React from 'react';
 const ContactContainer = () => {
     return (
         <div className= "contactCont">
-            <div className= "container">
-                <div className="row">
                     <div className="jumbotron">
-                    <h4 className="display-4 contactTitle">Feel Free to Reach out!</h4>
+                    <div class="container">
+                    <h4 className="contactTitle">Feel Free to Reach out!</h4>
                         <main className="col-md-12">
                         <h5>Email: Kaileesmith1501@gmail.com</h5>
                         <h5>Phone: (951)970-1909</h5>
@@ -20,7 +19,7 @@ const ContactContainer = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            // </div>
     )
 }
 

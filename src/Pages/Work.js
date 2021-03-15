@@ -3,9 +3,9 @@ import Navbar from '../Components/Navbar';
 import Footer from '../Components/Footer';
 import WorkContainer from '../Components/Card/WorkContainer';
 
-function Projects() {
+function Work() {
     return (
-        <div>
+        <div className="work">
            <Navbar/>
             <WorkContainer/>
             <Footer/> 
@@ -13,4 +13,4 @@ function Projects() {
     )
 }
 
-export default Projects
+export default Work
