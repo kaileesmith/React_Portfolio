@@ -5,37 +5,37 @@ const Navbar = () => {
     const history= useHistory();
     return (
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+                <span class="navbar-brand mb-1 h1">Kailee Smith</span>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div className="collapse navbar-collapse" id="navbar">
-                    <ul className="navbar-nav">
+                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav navbar-right">
                         <li className="nav-item">
-                        <a href="/"><i className="fas fa-home fa-3x"></i></a>
+                        <a 
+                            onClick={() => history.push("/")}
+                                        className="btn"
+                                        name="home"
+                                        >Home
+                        </a>
                         </li>
                         <li className="nav-item">
-                            <button
+                            <a
                                     onClick={() => history.push("/work")}
                                     className="btn"
                                     name="work"
                                 >Work
-                                </button>
+                            </a>
                         </li>
                         <li className="nav-item">
-                            <button
+                            <a
                                 onClick={() => history.push("/contact")}
                                 className="btn"
                                 name="contact"
                             >Contact
-                            </button>
+                            </a>
                         </li>
-                        {/* <li className="nav-item">
-                        <a href="https://www.linkedin.com/in/kaileesmith/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin fa-3x"></i></a>
-                        </li>
-                        <li className="nav-item">
-                        <a href="https://www.github.com/kaileesmith" target="_blank" rel="noreferrer"><i className="fab fa-github-square fa-3x"></i></a> 
-                        </li> */}
                     </ul>
                 </div>
             </nav>

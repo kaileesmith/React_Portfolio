@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@1,700&family=Source+Sans+Pro&display=swap');
 
-
 .App, .contact, .work{
   background-image: url(./Utils/background.jpg);
   background-size:100%!important;
@@ -8,9 +7,12 @@
   height: 100vh!important;
   /* padding-top: 0px !important; */
 }
+.nav-item{
+  color: #BFDBF7;
+}
 
 .footerFont{
-  color: #AD360B;
+  color: #BFDBF7;
 }
 .container1{
   justify-content: center;
@@ -63,6 +65,7 @@ h5, p{
   text-align: center;
   color: #ffffff;
 }
+
 
 .d-block{
   width: 700px;
