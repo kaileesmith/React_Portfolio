@@ -17,7 +17,7 @@ const ContactContainer = () => {
                                 <ul className="github">
                                     <a href="https://www.github.com/kaileesmith" target="_blank" rel="noreferrer"><i className="fab fa-github-square fa-3x"></i></a> 
                                 </ul>
-                                <ul>
+                                <ul className="resume">
                                 <a href={resume} target="_blank" rel="noreferrer"><i className="fas fa-file-download fa-3x"></i></a> 
                                 </ul>
                             </div>

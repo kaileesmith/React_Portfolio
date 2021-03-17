@@ -60,7 +60,7 @@ background-color: #869D7A;
 .projects{
   justify-content: center;
 }
-h5, p{
+h5, p, .deployLink{
   font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
   color: #ffffff;
@@ -74,12 +74,18 @@ h5, p{
 
 .workTitle{
   justify-content: center;
+}
 .contactTitle{
   text-align: center;
 }
 .links{
   padding-right: 450px;
+  
 }
 .fab, .fas{
   color: #AD360B;
+}
+
+.linkedin, .github, .resume{
+  float: right;
 }

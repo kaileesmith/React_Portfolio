@@ -13,28 +13,25 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="nav navbar-nav navbar-right">
                         <li className="nav-item">
-                        <a 
-                            onClick={() => history.push("/")}
-                                        className="btn"
-                                        name="home"
-                                        >Home
-                        </a>
-                        </li>
-                        <li className="nav-item">
-                            <a
-                                    onClick={() => history.push("/work")}
+                            <Link 
+                                    to="/"
                                     className="btn"
-                                    name="work"
-                                >Work
-                            </a>
+                                        >Home
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <a
-                                onClick={() => history.push("/contact")}
-                                className="btn"
-                                name="contact"
+                            <Link
+                                    to="/work"
+                                    className="btn"
+                                >Work
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link
+                                    to= "/contact"  
+                                    className="btn"
                             >Contact
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                 </div>
