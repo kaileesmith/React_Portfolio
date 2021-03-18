@@ -11,6 +11,11 @@
   color: #BFDBF7;
 }
 
+.navbar-brand, .btn{
+  font-family: 'Source Sans Pro', sans-serif;
+  color:#BFDBF7;
+}
+
 .footerFont{
   color: #BFDBF7;
 }
