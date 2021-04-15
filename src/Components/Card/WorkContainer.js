@@ -1,11 +1,11 @@
 import React from 'react';
-import burgerImg from "../../Utils/Eat-Da-Burger1.jpg";
+import burgerImg from "../../Utils/Eat-Da-Burger.gif";
 import galaxyImg  from "../../Utils/GalaxyDashboard.gif";
 import schedulerImg from "../../Utils/schedulerPicture.JPG";
 import moodImg from "../../Utils/startscreen.JPG";
 import fitnessImg from "../../Utils/Dashboard.JPG";
 import quizImg from "../../Utils/codequiz.JPG";
-import myPet from "../../Utils/MyPet.gif";
+import myPet from "../../Utils/MyPet1.gif";
 
 function WorkContainer() {
     return (
