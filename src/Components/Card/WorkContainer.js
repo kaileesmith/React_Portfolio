@@ -13,15 +13,15 @@ function WorkContainer() {
                     <div className="jumbotron">
                         <div className= "container">
                                 <h3 className="workTitle">MY WORK</h3>
-                            </div>
+                        </div>
                             <main className="container projects">
-                                <div className="row">
+                                <div className="row workOpt">
                                     <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
                                         <div className="carousel-inner">
                                             <div className="carousel-item active">
-                                                <img className="d-block w-100" src={myPet} alt="First slide"></img>
+                                                <img className="d-block w-100 myPet" src={myPet} alt="First slide"></img>
                                                 <h5>My Pet</h5>
-                                                    <p>A timed quiz that tests a user's knowledge of coding through a vanilla javascript application.</p>
+                                                    <p>A react based application that allows a user to store their pets information.</p>
                                                     <p><a href="https://my-pet-app-1.herokuapp.com/" target="_blank" rel="noreferrer" className=
                                                     "deployLink">Deployed App</a></p>
                                             </div>
@@ -76,13 +76,12 @@ function WorkContainer() {
                                             <span className="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span className="sr-only">Next</span>
                                         </a>
-                                    </div>
-                                </div>
+                                        </div>
+                                        </div>
                             </main>
-                        </div>
-                </div>
-
-               
+                    </div>
+            </div>
+                        
     )
 }
 

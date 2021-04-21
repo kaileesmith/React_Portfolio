@@ -65,6 +65,7 @@ background-color: #869D7A;
 .projects{
   justify-content: center;
 }
+
 h5, p, .deployLink{
   font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
@@ -72,9 +73,9 @@ h5, p, .deployLink{
 }
 
 
-.d-block{
-  width: 700px;
-  height: 500px;
+.d-block, .workOpt{
+  max-width: 806px;
+  max-height: 500px;
 }
 
 .workTitle{
@@ -94,3 +95,4 @@ h5, p, .deployLink{
 .linkedin, .github, .resume{
   float: right;
 }
+
