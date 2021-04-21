@@ -3,7 +3,7 @@ import burgerImg from "../../Utils/Eat-Da-Burger.gif";
 import galaxyImg  from "../../Utils/GalaxyDashboard.gif";
 import schedulerImg from "../../Utils/schedulerPicture.JPG";
 import moodImg from "../../Utils/startscreen.JPG";
-import fitnessImg from "../../Utils/Dashboard.JPG";
+import fitnessImg from "../../Utils/Dashboard.gif";
 import quizImg from "../../Utils/codequiz.JPG";
 import myPet from "../../Utils/MyPet1.gif";
 
