@@ -64,6 +64,11 @@ background-color: #869D7A;
 
 .projects{
   justify-content: center;
+  align-content: center;
+}
+
+.workOpt{
+margin: 0px auto;
 }
 
 h5, p, .deployLink{

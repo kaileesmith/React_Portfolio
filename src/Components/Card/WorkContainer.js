@@ -19,49 +19,49 @@ function WorkContainer() {
                                     <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
                                         <div className="carousel-inner">
                                             <div className="carousel-item active">
-                                                <img className="d-block w-100 myPet" src={myPet} alt="First slide"></img>
+                                                <img className="d-block myPet" src={myPet} alt="First slide"></img>
                                                 <h5>My Pet</h5>
-                                                    <p>A react based application that allows a user to store their pets information.</p>
+                                                    <p>A react based application that allows a user to store their pets information in an easy to use dashboard. Multiple profiles can be created for multiple pets.</p>
                                                     <p><a href="https://my-pet-app-1.herokuapp.com/" target="_blank" rel="noreferrer" className=
                                                     "deployLink">Deployed App</a></p>
                                             </div>
                                             <div className="carousel-item">
-                                                <img className="d-block w-100" src={galaxyImg} alt="Second slide"></img>
+                                                <img className="d-block" src={galaxyImg} alt="Second slide"></img>
                                                 <h5>Galaxy Scheduler</h5>
                                                     <p>A full-stack application designed to make household planning easier while utilizing CRUD functionality and server-side authentication/functionality.</p>
                                                     <p><a href="https://guarded-forest-74765.herokuapp.com/" target="_blank" rel="noreferrer" className=
                                                     "deployLink">Deployed App</a></p>
                                             </div>
                                             <div className="carousel-item">
-                                                <img className="d-block w-100" src={burgerImg} alt="Third slide"></img>
+                                                <img className="d-block" src={burgerImg} alt="Third slide"></img>
                                                 <h5>Eat-Da-Burger!</h5>
                                                     <p>This applicationa acts as a burger logger with MySQL, Node, Express, Handlebars and ORM. It allows user to input a burger then select which burger to devour. Once devoured the burger then moves to the devoured list. All burgers inputted are saved to the database.</p>
                                                     <p><a href="https://limitless-badlands-01738.herokuapp.com/" target="_blank" rel="noreferrer" className=
                                                     "deployLink">Deployed App</a></p>
                                             </div>
                                             <div className="carousel-item">
-                                                <img className="d-block w-100" src={fitnessImg} alt="Forth slide"></img>
+                                                <img className="d-block" src={fitnessImg} alt="Forth slide"></img>
                                                 <h5>Fitness Tracker</h5>
                                                     <p>A fintess tracker that allows a user to create, complete and track workouts. The application utilizes a Mongo database with a Mongoose schema and handles routes with Express.</p>
                                                     <p><a href="https://pacific-lake-49703.herokuapp.com/" target="_blank" rel="noreferrer" className=
                                                     "deployLink">Deployed App</a></p>
                                             </div>
                                             <div className="carousel-item">
-                                                <img className="d-block w-100" src={schedulerImg} alt="Fifth slide"></img>
+                                                <img className="d-block" src={schedulerImg} alt="Fifth slide"></img>
                                                 <h5>Work Day Scheduler</h5>
                                                     <p>This work day scheduler tracks the current time/date and allows user input for timeslots to be saved via local storage.</p>
                                                     <p><a href="https://kaileesmith.github.io/Scheduler/" target="_blank" rel="noreferrer" className=
                                                     "deployLink">Deployed App</a></p>
                                             </div>
                                             <div className="carousel-item">
-                                                <img className="d-block w-100" src={moodImg} alt="Sixth slide"></img>
+                                                <img className="d-block" src={moodImg} alt="Sixth slide"></img>
                                                 <h5>Mood Brew</h5>
                                                     <p>A random food and drink generator based off of the users selected mood option for the 3 provided categories at the top of the UI.</p>
                                                     <p><a href="https://kaileesmith.github.io/Mood_Brew/" target="_blank" rel="noreferrer" className=
                                                     "deployLink">Deployed App</a></p>
                                             </div>
                                             <div className="carousel-item">
-                                                <img className="d-block w-100" src={quizImg} alt="Seventh slide"></img>
+                                                <img className="d-block" src={quizImg} alt="Seventh slide"></img>
                                                 <h5>Code Quiz</h5>
                                                     <p>A timed quiz that tests a user's knowledge of coding through a vanilla javascript application.</p>
                                                     <p><a href="https://kaileesmith.github.io/Code_Quiz/" target="_blank" rel="noreferrer" className=
